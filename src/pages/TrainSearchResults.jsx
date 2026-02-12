@@ -306,7 +306,7 @@ const TrainSearchResults = () => {
         <div className={styles.trainList}>
           {displayTrains.length === 0 ? (
             <div className={styles.noTrains}>
-              No trains found for this route.
+              No trains found for this route or try after a minute.
             </div>
           ) : (
             displayTrains.map((train) => (
